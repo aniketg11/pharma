@@ -1,0 +1,103 @@
+/* #006c8a -> Blue color */
+/* #e8faf5 -> Light blue */
+body{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+.colorBlue{
+    color: #006c8a;
+}
+body::-webkit-scrollbar-track {
+  background: #e8faf5;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #006c8a;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #e8faf5;  /* creates padding around scroll thumb */
+}
+.contentDiv{
+    min-height: calc(100vh - 82px);
+}
+.thumbImg{
+    width: 150px;
+}
+.bannerImg{
+    width: 100%;
+    height: 250px;
+}
+.footer{
+    height:25px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn.btn-theme-blue{
+    background-color: #006c8a;
+    color: #fff;
+}
+.btn-rounded{
+  border-radius: 15px;  
+}
+.btn-sm{
+    font-size: 10px;
+}
+.bottom-div{
+    background-color: #006c8a;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.form-control{
+    background-color: #e8faf5;
+    border: #e8faf5;
+    font-size: 13px;
+}
+.header{
+    box-shadow: 0 2px 3px -1px rgb(232 250 245);
+}
+.header .nav-item:not(:last-child) {
+    border-right: 2px solid #a0c6ff;
+}
+.header .navbar-light .navbar-nav .nav-link{
+    color: #000 !important;
+}
+.nav-link a{
+    color: #000 !important;
+    text-decoration: none;
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+.circle { 
+    width: 260px !important;
+    height: 260px;
+    background: #e8faf5 ; 
+    -moz-border-radius: 100%; 
+    -webkit-border-radius: 100%; 
+    border-radius: 100%;
+ }
+
+ .carousel-item{
+     background: #fff !important;  
+ }
+
+ .w-10{
+     width: 10% !important;
+ }
+ 
+ .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%6495ED' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%6495ED' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
