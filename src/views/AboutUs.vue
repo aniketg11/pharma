@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col class="m-auto w-50" lg="8" md="8" sm="8">
-          <h3 class="colorBlue">Abuot Besuto PharmaPack Solution PVT LTD</h3>
+          <h3 class="colorBlue">About Besuto PharmaPack Solution PVT LTD</h3>
         </b-col>
         <b-col lg="4" md="4" sm="4">
           <img
