@@ -62,20 +62,30 @@ body::-webkit-scrollbar-thumb {
 }
 .header{
     box-shadow: 0 2px 3px -1px rgb(232 250 245);
+    background-color: #006c8a;
 }
 .header .nav-item:not(:last-child) {
-    border-right: 2px solid #a0c6ff;
+    border-right: 2px solid #fff;
 }
-.header .navbar-light .navbar-nav .nav-link{
+/* .header .navbar-light .navbar-nav .nav-link{
     color: #000 !important;
-}
-.nav-link a{
-    color: #000 !important;
+} */
+.nav-link a, a.nav-link{
+    color: #fff !important;
     text-decoration: none;
+    font-size: 17px;
 }
 .carousel-caption {
-    top: 0;
-    bottom: auto;
+    right: 13%;
+    text-align: right;
+    background-color: #006c8a;
+    /* max-width: 300px; */
+    left: auto;
+    padding: 0px;
+    bottom: 0px;
+}
+.carousel-caption p{
+    margin-bottom: 0px !important;
 }
 .circle { 
     width: 260px !important;
