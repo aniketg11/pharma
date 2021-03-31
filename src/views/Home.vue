@@ -1,5 +1,5 @@
 <template>
-<div class="contentDiv">
+<div class="contentDiv pt-2">
     <b-carousel id="carousel-1" :interval="4000" controls indicators background="#ababab" img-width="1024" img-height="400" style="text-shadow: 1px 1px 2px #333">
         <b-carousel-slide >
             <template #img>
