@@ -1,8 +1,0 @@
-Options -Indexes
-
-RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-SSL} !on
-RewriteCond %{HTTP_HOST} ^besutopharmapack\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.besutopharmapack\.com$
-RewriteRule ^(.*)$ "https\:\/\/besutopharmapack\.com\/$1" [R=301,L]
