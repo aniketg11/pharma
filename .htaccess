@@ -1,4 +1,5 @@
-RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80
-RewriteCond %{HTTP_HOST} ^ besutopharmapack\.com
-RewriteRule ^(.*)$ https://besutopharmapack.com/$1 [R,L]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://besutopharmapack.com [L,R=301]
+
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule (.*) https://www.besutopharmapack.com [L,R=301]
