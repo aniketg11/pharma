@@ -35,6 +35,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 10px;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 .btn.btn-theme-blue{
     background-color: #006c8a;

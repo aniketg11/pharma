@@ -1,24 +1,3 @@
-# pharmapack
+# Vanilla JavaScript App
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.

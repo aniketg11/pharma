@@ -34,7 +34,7 @@
     </b-carousel>
     <b-container>
     <b-container fluid>
-      <p class="mb-0">For more information call Shailendra Rumade (+91 8767210834).</p>
+      <p class="mb-0">For more information call Sujit Patil - (933-108-2828) / Shailendra Rumade (+91 8767210834).</p>
         <b-row class="pb-3 pt-2">
             <b-col lg="4" sm="12">
                 <h4><b>Product Enquiry</b></h4>
@@ -97,7 +97,7 @@
                 <img class="bannerImg" src="../assets/6.png" fluid alt="Fluid image" />
             </b-col>
             <b-col lg="4" sm="12">
-                <img class="bannerImg" src="../assets/7.png" fluid alt="Fluid image" />
+                <img class="bannerImg" src="../assets/7.jpg" fluid alt="Fluid image" />
             </b-col>
         </b-row>
     </b-container>
