@@ -8,6 +8,11 @@
         </b-carousel-slide>
         <b-carousel-slide >
             <template #img>
+                <img class="d-block w-80 m-auto" width="1024" height="400" src="../assets/banner/banner8.jpg" alt="image slot" />
+            </template>
+        </b-carousel-slide>
+        <b-carousel-slide >
+            <template #img>
                 <img class="d-block w-80 m-auto" width="1024" height="400" src="../assets/banner/banner2.jpg" alt="image slot" />
             </template>
         </b-carousel-slide>
@@ -23,18 +28,13 @@
         </b-carousel-slide>
         <b-carousel-slide >
             <template #img>
-                <img class="d-block w-80 m-auto" width="1024" height="400" src="../assets/banner/banner5.jpg" alt="image slot" />
-            </template>
-        </b-carousel-slide>
-        <b-carousel-slide >
-            <template #img>
-                <img class="d-block w-80 m-auto" width="1024" height="400" src="../assets/banner/banner6.jpg" alt="image slot" />
+                <img class="d-block w-80 m-auto" width="1024" height="400" src="../assets/banner/banner7.jpg" alt="image slot" />
             </template>
         </b-carousel-slide>
     </b-carousel>
     <b-container>
     <b-container fluid>
-      <p class="mb-0">For more information call Sujit Patil - (933-108-2828) / Shailendra Rumade (+91 8767210834).</p>
+      <p class="mb-0">For more information call Sujit Patil - (932-108-2828) / Shailendra Rumade (+91 8767210834).</p>
         <b-row class="pb-3 pt-2">
             <b-col lg="4" sm="12">
                 <h4><b>Product Enquiry</b></h4>
@@ -62,23 +62,36 @@
                     <b-button @click="makeToast('info')" block variant="theme-blue">Submit</b-button>
                 </b-form>
             </b-col>
-            <b-col lg="8" sm="12">
-                <b-row>
-                    <b-col>
+            <b-col lg="8" sm="12" >
+            <div id="partsDiv">
+                <div class="rowDiv">
+                    <b-col md="4">
                         <img class="thumbImg" src="../assets/1.png" fluid alt="Fluid image" />
                     </b-col>
-                    <b-col>
+                    <b-col md="4">
+                        <img class="thumbImg" src="../assets/parts/1.png" fluid alt="Fluid image" />
+                    </b-col >
+                    <b-col md="4">
                         <img class="thumbImg" src="../assets/2.png" fluid alt="Fluid image" />
                     </b-col>
-                </b-row>
-                <b-row>
-                    <b-col>
+                    <b-col md="4">
+                        <img class="thumbImg" src="../assets/parts/3.png" fluid alt="Fluid image" />
+                    </b-col>
+                    
+                    <b-col md="4">
                         <img class="thumbImg" src="../assets/3.png" fluid alt="Fluid image" />
                     </b-col>
-                    <b-col>
+                    <b-col md="4">
+                        <img class="thumbImg" src="../assets/parts/2.png" fluid alt="Fluid image" />
+                    </b-col>
+                    <b-col md="4">
                         <img class="thumbImg" src="../assets/8.png" fluid alt="Fluid image" />
                     </b-col>
-                </b-row>
+                    <b-col md="4">
+                        <img class="thumbImg" src="../assets/parts/4.png" fluid alt="Fluid image" />
+                    </b-col>
+                </div>
+                </div>
                 <p class="mb-0">
                     We manufacture charge parts for tablets, capsules, soft gel tab, injection with compatible for all types of blister packing machines.
                 </p>
